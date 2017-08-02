@@ -1,0 +1,90 @@
+p {
+    font-size: 20px;
+    font-family: roboto;
+    color: white;
+    text-align: center;
+}
+
+h2{
+  font-size: 70px;
+  font-family: lotte;
+  color: white;
+  text-align: center;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: lotte;
+    src: url(lottepaperfang.ttf);
+}
+
+/*body{
+  background-image: url("Cliffside1.jpg");
+  background-size: cover;
+}*/
+
+#DIV_1 {
+    background-position: 50% 50%;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0) url(Cliffside1.jpg) no-repeat scroll 50% 50% / cover padding-box border-box;
+    zoom:1.1;
+    background-size:cover;
+}
+/*#DIV_1*/
+ .animatable {
+    -webkit-transition:all 750ms ease-out;
+    transition:all 750ms ease-out;
+}
+.scaled {
+    -webkit-transform:scale(1.08);
+    transform:scale(1.08);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #062E35;
+    overflow-x: hidden;
+    padding-top: 60px;
+    opacity: 0.9;
+    font-family: roboto;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+#mySidenav {
+    transition: width .5s;
+}
