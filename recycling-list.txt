@@ -1,0 +1,15 @@
+paper
+cardboard
+plastic
+can
+bottle
+box
+magazine
+book
+jar
+carton
+glass
+battery
+computer
+keyboard
+phone
