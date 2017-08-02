@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>My Beautiful Map</title>
+    <link rel="stylesheet" type = "text/css" href = "maps.css">
+    <link rel="stylesheet" type = "text/css" href = "general.css">
+    <script src="maps.js"></script>
+  </head>
+  <body>
+    <h1>Find A Recycling Center</h1>
+    <p>Allow your browser to use your location, and then type in "RECYCLING" to the search bar!</p>
+    <p>Use your cursor to hover over the markers! This will show you the names of each of the locations.</p>
+    <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-Cs0ldkofVet8sG-z00nfiEwW42X3_e8&libraries=places&callback=initAutocomplete"
+         async defer></script>
+
+  </body>
+</html>
