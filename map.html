@@ -5,9 +5,7 @@
     <meta charset="utf-8">
     <title>Recycling Centers</title>
     <link rel="stylesheet" href = "general.css">
-    <script defer src="maps.js"></script>
-    <script defer src="jquery-3.2.1.min.js"></script>
-    <script defer src="navscript.js"></script>
+
 
   </head>
   <body style="font-size:30px;" onload="setTimeout(openNav(), 300);">
@@ -19,8 +17,7 @@
       <input id="pac-input" class="controls" type="text" placeholder="Search Box">
       <div id="map"></div>
     </div>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-Cs0ldkofVet8sG-z00nfiEwW42X3_e8&libraries=places&callback=initAutocomplete"
-           async defer></script>
+
     <div id="mySidenav" class="sidenav">
         <a href="home.html">Home</a>
         <a href="about.html">About</a>
@@ -29,5 +26,10 @@
         <a href="forum.html">Forum/Help</a>
     </div>
   </div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-Cs0ldkofVet8sG-z00nfiEwW42X3_e8&libraries=places&callback=initAutocomplete"
+       async defer></script>
+  <script defer src="maps.js"></script>
+  <script defer src="jquery-3.2.1.min.js"></script>
+  <script defer src="navscript.js"></script>
   </body>
 </html>
