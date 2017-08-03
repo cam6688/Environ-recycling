@@ -1,7 +1,7 @@
 var wordsList = [];
 
 function init() {
-  var wordsFile = "recycling-list.txt";
+  var wordsFile = "https://rawgit.com/cam6688/Environ-recycling/gh-pages/recycling-list.txt";
   $.get(wordsFile, function(data) {
     document.getElementById("btnSubmit").disabled = true;
     wordsList = data.split('\n');
