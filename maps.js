@@ -25,7 +25,7 @@
       // Browser doesn't support Geolocation
       handleLocationError(false, infoWindow, map.getCenter());
     }
-
+    map.setOptions({draggable: false});
     //start search part
     map.addListener('center_changed', function() {
   // 3 seconds after the center of the map has changed, pan back to the
