@@ -1,9 +1,11 @@
 p {
-    font-size: 20px;
+    font-size: 22px;
     font-family: roboto;
     color: white;
     text-align: center;
     list-style-type: none;
+    margin-left: 10px;
+    text-shadow: 2px 2px #2d5e22;
 }
 ul {
   font-size: 20px;
@@ -11,6 +13,7 @@ ul {
   color: white;
   text-align: center;
   list-style-type: none;
+  text-shadow: 2px 2px #2d5e22;
 
 }
 
@@ -19,6 +22,7 @@ h2{
   font-family: lotte;
   color: white;
   text-align: center;
+  text-shadow: 2px 2px #2d5e22;
 }
 
 @font-face {
@@ -116,8 +120,8 @@ h2{
 
 }
 #map {
-  width: 70%;
-  height: 50%;
+  width: 75%;
+  height: 60%;
   margin:auto;
 }
 
