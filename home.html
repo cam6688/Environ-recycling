@@ -16,7 +16,7 @@
 
   function drawRegionsMap() {
     var data = google.visualization.arrayToDataTable([
-      ['Country', 'Recycling %'],
+      ['Country', 'Danger Level'],
       ['Canada', 6],
       ['United States', 6],
       ['United Kingdom', 7],
@@ -31,11 +31,19 @@
       ['Australia', 7],
       ['Somalia', 9],
       ['Kenya', 10],
-      ['Mexico', 7]
+      ['Mexico', 7],
+      ['Brazil', 7],
+      ['Russia', 5],
+      ['India', 7],
+      ['Indonesia', 6],
+      ['Madagascar', 8],
+      ['Australia', 7],
+      ['China', 8],
+      ['Papua New Guinea', 7]
     ]);
 
     var options = {
-      colorAxis: {colors: ['yellow', 'orange', 'red']},
+      colorAxis: {colors: ['#eff29d', '#d6dd18', 'orange', 'red']},
       datalessRegionColor: '#f5f5f5',
     };
 
