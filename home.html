@@ -2,10 +2,48 @@
 <html>
 <head>
   <link rel="stylesheet" href="general.css">
-  <script src="jquery-3.2.1.min.js"></script>
+  <script defer src="jquery-3.2.1.min.js"></script>
+  <script defer src="navscript.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load('current', {
+    'packages':['geochart'],
+    // Note: you will need to get a mapsApiKey for your project.
+    // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+    'mapsApiKey': 'AIzaSyAN3RqMNyVwfk4Y9Yf7-6MMCnkY_WBRWq4'
+  });
+  google.charts.setOnLoadCallback(drawRegionsMap);
 
-  <script src="navscript.js"></script>
+  function drawRegionsMap() {
+    var data = google.visualization.arrayToDataTable([
+      ['Country', 'Recycling %'],
+      ['Canada', 6],
+      ['United States', 6],
+      ['United Kingdom', 7],
+      ['France', 7],
+      ['Germany', 7],
+      ['Poland', 8],
+      ['Austria', 7],
+      ['Italy', 7],
+      ['Japan', 6],
+      ['Taiwan', 8],
+      ['South Africa', 9],
+      ['Australia', 7],
+      ['Somalia', 9],
+      ['Kenya', 10],
+      ['Mexico', 7]
+    ]);
 
+    var options = {
+      colorAxis: {colors: ['yellow', 'orange', 'red']},
+      datalessRegionColor: '#f5f5f5',
+    };
+
+    var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+    chart.draw(data, options);
+  }
+</script>
 </head>
 <body style="font-size:30px;" onload="setTimeout(openNav(), 300);">
 <div id="DIV_1" class="scaled">
@@ -20,6 +58,7 @@
 </div>
 <div class = "banner">
   <h1>Statistics</h1>
+  <div id="regions_div" style="width: 99%; height: 80%;"></div>
 </div>
 </div>
 <div id="mySidenav" class="sidenav">
