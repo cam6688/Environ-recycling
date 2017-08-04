@@ -112,11 +112,14 @@ h2{
   padding-bottom: 20px;
 }
 .banner {
-  background-color: white;
+  background-color: rgba(255,255,255,0.5);
   padding-left: 20px;
   padding-right: 20px;
-  opacity: 0.5;
-  width: 92%;
+  margin-right: 13px;
+  width: 43%;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  float: left;
 
 }
 .about {
@@ -146,6 +149,19 @@ h6 {
   font-size: 20px;
   font-family: roboto;
 
+}
+h1 {
+  font-size: 25px;
+  font-family: roboto;
+  text-decoration: underline;
+}
+h3{
+  font-size: 21px;
+  font-family: roboto;
+}
+.question {
+  font-style: italic;
+  font-size: 23px;
 }
 
 #map {
