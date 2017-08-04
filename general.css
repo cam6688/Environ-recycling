@@ -116,18 +116,22 @@ h2{
   padding-left: 20px;
   padding-right: 20px;
   margin-right: 13px;
-  width: 43%;
+  width: 44%;
   padding-top: .5%;
   padding-bottom: .5%;
   float: left;
+  border-radius: 3%;
+  height: 315px;
 
 }
 .about {
-  width: 31%;
+  width: 32%;
   background-color:rgba(255,255,255,0.5);
   margin-right: 10px;
   float: left;
   margin-top: 10px;
+  border-radius: 3%;
+
 }
 img {
   border-radius: 50%;
@@ -163,7 +167,12 @@ h3{
   font-style: italic;
   font-size: 23px;
 }
+#regions_div {
+  display:block;
+  margin:auto;
+  padding-bottom: 10px;
 
+}
 #map {
   width: 75%;
   height: 60%;
