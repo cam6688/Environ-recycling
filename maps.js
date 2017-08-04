@@ -92,5 +92,6 @@
         }
       });
       map.fitBounds(bounds);
+      google.maps.event.trigger(map, 'resize');
     });
   }
