@@ -47,12 +47,35 @@
       ['Algeria', 8],
       ['Norway', 7],
       ['Sweden', 7],
-      ['Finland', 7]
+      ['Finland', 7],
+      ['Egypt', 7],
+      ['Saudi Arabia', 7],
+      ['Sudan', 8],
+      ['Ethiopia', 8],
+      ['Somalia', 9],
+      ['Yemen', 8],
+      ['Namibia', 7],
+      ['Angola', 8],
+      ['Libya', 7],
+      ['Tunisia', 8],
+      ['Algeria', 8],
+      ['Morocco', 8],
+      ['Turkey', 7],
+      ['South Sudan', 8],
+      ['Senegal', 8],
+      ['Sierra Leone', 10],
+      ['United Arab Emirates', 6],
+      ['Vietnam', 6],
+      ['Bangladesh', 10],
+      ['Nepal', 9],
+      ['Jordan', 9],
+      ['Israel', 7]
     ]);
 
     var options = {
-      colorAxis: {colors: ['#eff29d', '#d6dd18', 'orange', 'red']},
+      colorAxis: {colors: ['#eff29d', 'orange', 'red']},
       datalessRegionColor: '#f5f5f5',
+      backgroundColor: 'white',
     };
 
     var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
@@ -74,12 +97,15 @@
 </div>
 <div class = "banner">
   <h1>Statistics</h1>
-  <div id="regions_div" style="width: 99%; height: 80%;"></div>
+  <a href="statistics.html">
+    <div id="regions_div" style="width: 99%; height: 80%;" onclick="onCLick(this)"></div>
+</a>
 </div>
 </div>
 <div id="mySidenav" class="sidenav">
   <a href="home.html">Home</a>
   <a href="about.html">About</a>
+  <a href="statistics.html">Statistics</a>
   <a href="map.html">Map</a>
   <a href="can-it.html">Can It?</a>
   <a href="forum.html">Forum/Help</a>
