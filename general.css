@@ -227,9 +227,9 @@ hr {
 
 }
 #map {
-  width: 75%;
   height: 60%;
   margin: auto;
+  max-width: inherit;
 }
 
 #infowindow-content .title {
