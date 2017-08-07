@@ -11,6 +11,20 @@ $(document).ready(function () {
     }, 1000)
 });
 
+$(document).ready(function () {
+    $('#DIV_2').attr('class', 'animatable');
+    setTimeout(function () {
+        $('#DIV_2').removeClass('animatable');
+    }, 1000)
+});
+
+$(document).ready(function () {
+    $('#DIV_3').attr('class', 'animatable');
+    setTimeout(function () {
+        $('#DIV_3').removeClass('animatable');
+    }, 1000)
+});
+
 //onload="setTimeout(openNav(), 300);"
 function run(interval, frames) {
     var int = 1;
