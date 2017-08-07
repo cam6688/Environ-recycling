@@ -27,3 +27,6 @@ phones
 cell phone
 mobile
 aluminum
+tin
+steel
+
