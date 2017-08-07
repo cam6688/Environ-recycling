@@ -2,7 +2,7 @@
   function initAutocomplete() {
     map = new google.maps.Map(document.getElementById('map'), {
       center: {lat: -34.397, lng: 150.644},
-      zoom: 15
+      zoom: 16
     });
     infoWindow = new google.maps.InfoWindow;
     //start finding user
@@ -32,7 +32,7 @@
   // marker.
   window.setTimeout(function() {
     map.panTo(infoWindow.getPosition());
-    map.setZoom(13);
+    map.setZoom(14);
   }, 3000);
 });
     // Create the search box and link it to the UI element.
