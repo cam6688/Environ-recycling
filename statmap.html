@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="general.css">
+  <script defer src="jquery-3.2.1.min.js"></script>
+  <script defer src="navscript.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load('current', {
+    'packages':['geochart'],
+    // Note: you will need to get a mapsApiKey for your project.
+    // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+    'mapsApiKey': 'AIzaSyAN3RqMNyVwfk4Y9Yf7-6MMCnkY_WBRWq4'
+  });
+  google.charts.setOnLoadCallback(drawRegionsMap);
+
+  function drawRegionsMap() {
+    var data = google.visualization.arrayToDataTable([
+      ['Country', 'Danger Level'],
+      ['Canada', 6],
+      ['United States', 6],
+      ['United Kingdom', 7],
+      ['France', 7],
+      ['Germany', 7],
+      ['Poland', 8],
+      ['Austria', 7],
+      ['Italy', 7],
+      ['Japan', 6],
+      ['Taiwan', 8],
+      ['South Africa', 9],
+      ['Australia', 7],
+      ['Somalia', 9],
+      ['Kenya', 10],
+      ['Mexico', 7],
+      ['Brazil', 7],
+      ['Russia', 5],
+      ['India', 7],
+      ['Indonesia', 6],
+      ['Madagascar', 8],
+      ['Australia', 7],
+      ['China', 8],
+      ['Papua New Guinea', 7],
+      ['New Zealand', 7],
+      ['Spain', 7],
+      ['Portugal', 7],
+      ['Morocco', 8],
+      ['Algeria', 8],
+      ['Norway', 7],
+      ['Sweden', 7],
+      ['Finland', 7],
+      ['Egypt', 7],
+      ['Saudi Arabia', 7],
+      ['Sudan', 8],
+      ['Ethiopia', 8],
+      ['Somalia', 9],
+      ['Yemen', 8],
+      ['Namibia', 7],
+      ['Angola', 8],
+      ['Libya', 7],
+      ['Tunisia', 8],
+      ['Algeria', 8],
+      ['Morocco', 8],
+      ['Turkey', 7],
+      ['South Sudan', 8],
+      ['Senegal', 8],
+      ['Sierra Leone', 10],
+      ['United Arab Emirates', 6],
+      ['Vietnam', 6],
+      ['Bangladesh', 10],
+      ['Nepal', 9],
+      ['Jordan', 9],
+      ['Israel', 7],
+      ['Chile', 8],
+      ['Argentina', 8],
+      ['Uruguay', 8],
+      ['Paraguay', 8],
+      ['Bolivia', 7],
+      ['Peru', 7],
+      ['Ecuador', 6],
+      ['Columbia', 6],
+      ['Venezuela', 6],
+      ['Cuba', 7],
+      ['Dominican Republic', 7],
+      ['Panama', 6],
+      ['Costa Rica', 6],
+      ['Nicaragua', 7],
+      ['Honduras', 7],
+      ['Guatemala', 8],
+      ['Iceland', 7],
+      ['Belgium', 7],
+      ['Netherlands', 6],
+      ['Switzerland', 6],
+      ['Hungary', 7],
+      ['Romania', 7],
+      ['Belarus', 7],
+      ['Ukraine', 7],
+      ['Bulgaria', 7],
+      ['Greece', 7],
+      ['Albania', 7],
+      ['Georgia', 7],
+      ['Pakistan', 8],
+      ['Kyrgyzstan', 7]
+    ]);
+
+    var options = {
+      colorAxis: {colors: ['#FFFF99', '#FFCC7A', '#FF995C', '#FF3D1F', 'red']},
+      datalessRegionColor: '#f5f5f5',
+      backgroundColor: 'white',
+    };
+
+    var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+    chart.draw(data, options);
+  }
+</script>
+</head>
+<body style="font-size:30px;" onload="setTimeout(openNav(), 300);">
+<div id="DIV_1" class="scaled">
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+  <h5>GLOBAL DISTRIBUTION OF VULNERABLILITY TO CLIMATE CHANGE</h5>
+  <p class="description"><strong>Map of the world in 2050, how badly global warming will affect certain countries.</strong></p>
+<div class = "statmap">
+  <div id="regions_div" style="width: 99%; height: 99%;" onclick="onCLick(this)"></div>
+</div>
+</div>
+<div id="mySidenav" class="sidenav">
+  <a href="home.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="statistics.html">Statistics</a>
+  <a href="map.html">Map</a>
+  <a href="can-it.html">Can It?</a>
+  <a href="forum.html">Help</a>
+</div>
+</div>
+</body>
+</html>

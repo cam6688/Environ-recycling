@@ -177,6 +177,17 @@ h2{
   border-radius: 3%;
   height: 315px;
 }
+.statmap {
+  background-color: rgba(255,255,255,0.5);
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 96%;
+  padding-top: .7%;
+  padding-bottom: .5%;
+  float: ;
+  border-radius: 3%;
+  height: 330px;
+}
 .about {
   width: 32%;
   background-color:rgba(255,255,255,0.5);
@@ -216,6 +227,20 @@ h3{
   font-size: 21px;
   font-family: roboto;
 }
+h5 {
+  text-align: center;
+  font-family:roboto;
+  font-size: 30px;
+  color: white;
+  background-color:rgba(255,255,255,0.2);
+  text-shadow: 2px 2px #2d5e22;
+}
+.description {
+  background-color:rgba(255,255,255,0.3);
+  color: #f4f5f7;
+  text-shadow: 1px 1px  #2d5e22;
+  width: 96%;
+}
 hr {
   width: 20%;
 }
@@ -230,9 +255,9 @@ hr {
 
 }
 #map {
-  width: 75%;
   height: 60%;
   margin: auto;
+  max-width: inherit;
 }
 
 #infowindow-content .title {
