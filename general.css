@@ -52,8 +52,36 @@ h2{
     background-image: url(beach.jpg);
     zoom:1.1;
     background-size:cover;
-
 }
+
+#DIV_2 {
+    background-position: 50% 50%;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0)  no-repeat scroll 50% 50% / cover padding-box border-box;
+    background-image: url(forest.jpeg);
+    zoom:1.1;
+    background-size:cover;
+}
+
+#DIV_3 {
+    background-position: 50% 50%;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0)  no-repeat scroll 50% 50% / cover padding-box border-box;
+    background-image: url(water.jpg);
+    zoom:1.1;
+    background-size:cover;
+}
+
 /*#DIV_1*/
  .animatable {
     -webkit-transition:all 750ms ease-out;
@@ -109,8 +137,8 @@ h2{
   margin-left: 10%;
   margin-right: 10%;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .stats {
   background-color: rgba(255,255,255,0.5);
