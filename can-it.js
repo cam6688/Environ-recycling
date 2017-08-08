@@ -28,9 +28,9 @@ function printResults(recyclable) {
 
 
   if (recyclable) {
-      document.getElementById("results").innerHTML = "This item is recyclable. If you have any more questions, check our forum/help page.";
+      document.getElementById("results").innerHTML = "This item is recyclable. If you have any more questions, check our help page.";
   }else {
-    document.getElementById("results").innerHTML = "This item is not recyclable. If you have any more questions, check our forum/help page.";
+    document.getElementById("results").innerHTML = "This item is not recyclable. If you have any more questions, check our help page.";
   }
 }
 
