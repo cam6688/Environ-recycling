@@ -25,11 +25,35 @@ var markersData = [
    },
    {
       lat: 37.773015,
-      lng: -121.975790,
+      lng: -121.9557,
       name: "RePlanet",
       address1:"2505 San Ramon Valley Blvd",
       address2: "San Ramon, CA 94583",
       phoneNumber: "(800) 969-2020" // don’t insert comma in the last item of each marker
+   },
+   {
+      lat: 37.7773,
+      lng: -121.9808,
+      name: "Junk Pros",
+      address1:"136 Canyon Lakes Way",
+      address2: "San Ramon, CA 94582",
+      phoneNumber: "(925) 968-9001" // don’t insert comma in the last item of each marker
+   },
+   {
+      lat: 37.7036,
+      lng: -121.9026,
+      name: "eWasteDirect",
+      address1:"2505 San Ramon Valley Blvd",
+      address2: "Dublin, CA 94568",
+      phoneNumber: "(877) 437-9558" // don’t insert comma in the last item of each marker
+   },
+   {
+      lat: 37.6709,
+      lng: -121.8640,
+      name: "Wastexperts Inc",
+      address1:"440 Boulder Ct #200",
+      address2: "Pleasanton, CA 94566",
+      phoneNumber: "(925) 484-4422" // don’t insert comma in the last item of each marker
    }
 ];
 var map, infoWindow;
