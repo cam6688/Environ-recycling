@@ -248,6 +248,9 @@ hr {
   font-style: italic;
   font-size: 23px;
 }
+.mapimg {
+  border-radius: 0%;
+}
 #regions_div {
   display:block;
   margin:auto;
