@@ -81,6 +81,9 @@ h2{
     zoom:1.1;
     background-size:cover;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-repeat: repeat;
 }
 
 #DIV_3 {
