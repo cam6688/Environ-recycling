@@ -24,4 +24,6 @@ img {
 }
 body{
   height: 100vh;
+  background: url(mtn.jpg);
+  background-size: cover;
 }
