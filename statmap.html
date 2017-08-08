@@ -103,7 +103,7 @@
     ]);
 
     var options = {
-      colorAxis: {colors: ['#FFFF99', '#FFCC7A', '#FF995C', '#FF3D1F', 'red']},
+      colorAxis: {colors: ['#FFFF99', '#FFD982', '#FFA663', '#FF804C', '#FF5936', 'red']},
       datalessRegionColor: '#f5f5f5',
       backgroundColor: 'white',
     };
@@ -122,6 +122,21 @@
   <p class="description"><strong>Map of the world in 2050, how badly global warming will affect certain countries.</strong></p>
 <div class = "statmap">
   <div id="regions_div" style="width: 99%; height: 99%;" onclick="onCLick(this)"></div>
+</div>
+<div class="my-legend">
+  <p class= "legend-title">Degree of Vulnerability</p>
+  <div class="legend-scale">
+    <ul class= "legend-labels">
+      <li><span style="background:red;"></span>Extreme (10)</li>
+      <li><span style="background:#FF5936;"></span>Severe (9)</li>
+      <li><span style="background:#FF804C;"></span>Serious (8)</li>
+      <li><span style="background:#FFA663;"></span>Moderate (7)</li>
+      <li><span style="background:#FFD982;"></span>Moderate (6)</li>
+      <li><span style="background:#FFFF99;"></span>Modest (5)</li>
+      <li><span style="background:#f5f5f5;"></span>No Data</li>
+    </ul>
+  </div>
+</div>
 </div>
 </div>
 <div id="mySidenav" class="sidenav">
