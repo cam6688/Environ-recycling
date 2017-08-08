@@ -26,14 +26,13 @@ $(document).ready(function () {
 });
 
 //onload="setTimeout(openNav(), 300);"
-function run(interval, frames) {
-    var int = 1;
+(function($){
+  $('vegas-slider').vegas({
+    slides: [
+        {src : 'CLiffside1.jpg'},
+        {src : 'beach.jpg'},
+        {src : 'forest.jpeg'}
+    ]
+  });
 
-    function func() {
-        document.body.id = "b"+int;
-        int++;
-        if(int === frames) { int = 1; }
-    }
-
-    var swap = window.setInterval(func, interval);
-}
+});
