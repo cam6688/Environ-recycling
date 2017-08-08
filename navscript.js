@@ -25,6 +25,13 @@ $(document).ready(function () {
     }, 1000)
 });
 
+$(document).ready(function () {
+    $('#DIV_4').attr('class', 'animatable');
+    setTimeout(function () {
+        $('#DIV_4').removeClass('animatable');
+    }, 1000)
+});
+
 //onload="setTimeout(openNav(), 300);"
 (function($){
   $('vegas-slider').vegas({
