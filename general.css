@@ -24,6 +24,7 @@ h2{
   color: white;
   text-align: center;
   text-shadow: 2px 2px #2d5e22;
+  margin: 0;
 }
 
 @font-face {
@@ -40,6 +41,17 @@ h2{
   background-image: url("Cliffside1.jpg");
   background-size: cover;
 }*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.block-parallax-1 {
+    overflow: hidden;
+    position: relative;
+}
 
 #DIV_1 {
     background-position: 50% 50%;
@@ -84,7 +96,12 @@ h2{
     zoom:1.1;
     background-size:cover;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-repeat: repeat;
 }
+
+
 
 /*#DIV_1*/
  .animatable {
