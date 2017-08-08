@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Background test</title>
+  <link rel="stylesheet" href="maps.css">
+  <link rel="stylesheet" href="vegas/vegas.min.css">
+
+</head>
+<body class= "vegas-slider">
+  <script src="jquery-3.2.1.min.js"></script>
+  <script defer src="vegas/vegas.min.js"></script>
+  <script defer src="bkgd.js"></script>
+  <script>
+  (function($){
+    $('.vegas-slider').vegas({
+      slides: [
+          {src : 'CLiffside1.jpg'},
+          {src : 'beach.jpg'},
+          {src : 'forest.jpeg'}
+      ]
+    });
+  });
+  </script>
+</body>
+</html>
