@@ -181,12 +181,55 @@ h2{
   background-color: rgba(255,255,255,0.5);
   padding-left: 20px;
   padding-right: 20px;
-  width: 96%;
+  width: 70%;
   padding-top: .7%;
   padding-bottom: .5%;
-  float: ;
+  float: left;
   border-radius: 3%;
-  height: 330px;
+  height: 350px;
+}
+.my-legend {
+  background-color: rgba(255,255,255,0.5);
+  width: 23%;
+  float: left;
+  margin-left: 10px;
+  border-radius: 3%;
+  padding-left: 10px;
+  padding-bottom: 10px;
+
+}
+.my-legend .legend-title {
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 21px;
+  text-shadow: none;
+  margin-bottom: 10px;
+   }
+.my-legend .legend-scale ul {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  float: left;
+  list-style: none;
+  text-shadow: none;
+}
+.my-legend .legend-scale ul li {
+  font-size: 80%;
+  list-style: none;
+  margin-left: 0;
+  line-height: 18px;
+  margin-bottom: 5px;
+  text-shadow: none;
+}
+.my-legend ul.legend-labels li span {
+  display: block;
+  float: left;
+  height: 16px;
+  width: 30px;
+  margin-right: 5px;
+  margin-left: 10px;
+  border: 1px solid #999;
 }
 .about {
   width: 32%;
@@ -251,6 +294,13 @@ hr {
 .mapimg {
   border-radius: 0%;
 }
+.box {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
 #regions_div {
   display:block;
   margin:auto;
