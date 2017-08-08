@@ -187,12 +187,12 @@ h2{
   padding-left: 30px;
   padding-right: 20px;
   margin-right: 13px;
-  width: 25%;
+  width: 30%;
   padding-top: .5%;
   padding-bottom: .5%;
   float: left;
   border-radius: 3%;
-  height: 350px;
+  height: 360px;
 
 }
 .banner {
@@ -200,12 +200,12 @@ h2{
   padding-left: 20px;
   padding-right: 20px;
   margin-right: 13px;
-  width: 63%;
+  width: 55%;
   padding-top: .5%;
   padding-bottom: .9%;
   float: left;
   border-radius: 3%;
-  height: 350px;
+  height: 360px;
 
 }
 .ms {
