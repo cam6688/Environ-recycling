@@ -135,7 +135,22 @@ h2{
     -webkit-background-size: cover;
     -moz-background-size: cover;
 }
-
+#DIV_6 {
+    background-position: 50% 50%;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0)  no-repeat scroll 50% 50% / cover padding-box border-box;
+    background-image: url(river.jpg);
+    zoom:1.1;
+    background-size:cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
 /*#DIV_1*/
  .animatable {
     -webkit-transition:all 750ms ease-out;
