@@ -65,7 +65,6 @@ h2{
     background-image: url(beach.jpg);
     zoom:1.1;
     background-size:cover;
-    background-attachment: fixed;
 }
 
 #DIV_2 {
@@ -80,10 +79,6 @@ h2{
     background-image: url(forest.jpeg);
     zoom:1.1;
     background-size:cover;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-repeat: repeat;
 }
 
 #DIV_3 {
@@ -98,13 +93,7 @@ h2{
     background-image: url(water.jpg);
     zoom:1.1;
     background-size:cover;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-repeat: repeat;
 }
-
-
 
 /*#DIV_1*/
  .animatable {
