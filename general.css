@@ -43,15 +43,6 @@ h2{
 }*/
 
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-.block-parallax-1 {
-    overflow: hidden;
-    position: relative;
-}
 
 #DIV_1 {
     background-position: 50% 50%;
@@ -65,9 +56,6 @@ h2{
     background-image: url(beach.jpg);
     zoom:1.1;
     background-size:cover;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
 }
 
 #DIV_2 {
@@ -82,9 +70,6 @@ h2{
     background-image: url(forest.jpeg);
     zoom:1.1;
     background-size:cover;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
 }
 
 #DIV_3 {
@@ -99,9 +84,6 @@ h2{
     background-image: url(water.jpg);
     zoom:1.1;
     background-size:cover;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
 }
 #DIV_4 {
     background-position: 50% 50%;
@@ -115,9 +97,6 @@ h2{
     background-image: url(sky.jpeg);
     zoom:1.1;
     background-size:cover;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
 }
 #DIV_5 {
     background-position: 50% 50%;
@@ -131,9 +110,6 @@ h2{
     background-image: url(sunset.jpeg);
     zoom:1.1;
     background-size:cover;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
 }
 #DIV_6 {
     background-position: 50% 50%;
@@ -147,11 +123,8 @@ h2{
     background-image: url(river.jpg);
     zoom:1.1;
     background-size:cover;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
 }
-/*#DIV_1*/
+
  .animatable {
     -webkit-transition:all 750ms ease-out;
     transition:all 750ms ease-out;
